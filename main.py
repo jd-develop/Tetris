@@ -22,5 +22,6 @@ while running:
 
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
+            # quitter le jeu
             running = False
             pygame.quit()
